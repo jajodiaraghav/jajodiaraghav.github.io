@@ -1,0 +1,26 @@
+html, body {
+	height: 100%;
+}
+
+.navbar {
+	background-color: #305B90;
+    background: -webkit-linear-gradient(315deg, #305B90 0%, #305B90 30%, #529bf5 100%) fixed;
+    background: linear-gradient(135deg, #305B90 0%, #305B90 30%, #529bf5 100%) fixed;
+	border: none;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.navbar a {
+	color: white !important;
+}
+
+.lead-avatar {
+	background-image: url(../images/avatar.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+}
