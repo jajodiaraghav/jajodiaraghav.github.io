@@ -1,5 +1,6 @@
 html, body {
 	height: 100%;
+	color: #4D4D4D;
 }
 
 .navbar {
@@ -15,12 +16,88 @@ html, body {
 	color: white !important;
 }
 
+.margin-side {
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.margin-top {
+	margin-top: 50px;
+}
+
 .lead-avatar {
-	background-image: url(../images/avatar.jpg);
+	background-image: url(../images/cover.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	position: absolute;
+	position: fixed;
 	top: 50px;
 	bottom: 0;
+}
+
+.about-header {
+	font-size: 48px;
+	font-weight: bolder;
+	margin-top: 100px;
+}
+
+.intro {
+	font-size: 150%;
+	font-family: serif;
+	line-height: 1.2;
+}
+
+span.glyphicon {
+	padding-right: 10px;
+}
+
+.img-circle {
+	height: 50px;
+	width: 50px;
+}
+
+.heading-section {
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+.inspiration-section {
+	display: inline-flex;
+}
+
+.inspiration-section img {
+	margin: 0 30px;
+}
+
+div.list-group a span {
+	float: right;
+	margin-top: 5px;
+}
+
+a.list-group-item:nth-child(1):hover {
+	color: #A82400;
+}
+
+a.list-group-item:nth-child(2):hover {
+	color: #3b5998;
+}
+
+a.list-group-item:nth-child(3):hover {
+	color: #E95950;
+}
+
+a.list-group-item:nth-child(4):hover {
+	color: #55ACEE;
+}
+
+a.list-group-item:nth-child(5):hover {
+	color: #DD4B39;
+}
+
+a.list-group-item:nth-child(6):hover {
+	color: #007bb5;
+}
+
+a.list-group-item:nth-child(7):hover {
+	color: #000000;
 }
