@@ -109,3 +109,19 @@ a.list-group-item:nth-child(7):hover {
 	font-weight: bolder;
 	color: lightgreen;
 }
+
+@media only screen and (max-width: 700px) {
+    .lead-avatar {
+        display: none;
+    }
+    .margin-side {
+    	margin-left: 20px;
+    	margin-right: 20px;
+    }
+    .inspiration-section {
+    	display: block;
+    }
+    .inspiration-section img {
+    	margin: 20px;
+    }
+}
