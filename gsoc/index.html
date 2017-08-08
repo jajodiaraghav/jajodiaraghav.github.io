@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Raghav Jajodia Google Summer of Code 2017">
+    <meta name="author" content="Raghav Jajodia">
+    <title>Google Summer of Code 2017</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('images/gsoc.png')">
+        <div class="tint"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading text-center">
+                        <h1>GSoC'17 Final Report</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h1 class="page-header">Final Work Product of NRNB DV-IMPACT</h1>
+
+                    <p>So we've officially come to an end to the amazing 12 weeks of Google Summer of Code 2017! This page summarize my entire work over the past 12 weeks.</p>
+
+                    <h2 class="section-heading">Project Details</h2>
+                    <div class="list-group">
+                    	<div class="list-group-item">
+                    		<strong>Project Title:</strong> Adding support for PSIMI-TAB format to the Disease Variant Impact (DV-IMPACT) Database
+                    	</div>
+                    	<div class="list-group-item">
+                    		<strong>Link to GSoC Project:</strong> <a href="https://summerofcode.withgoogle.com/projects/#6498470333513728">https://summerofcode.withgoogle.com/projects/#6498470333513728</a>
+                    	</div>
+                    	<div class="list-group-item">
+                    		<strong>Open source Platform Used:</strong> Github
+                    	</div>
+                    	<div class="list-group-item">
+                    		<strong>Organization Name:</strong> National Resource for Network Biology (NRNB)
+                    	</div>
+                    	<div class="list-group-item">
+                    		<strong>Repository Contributed to:</strong> <a href="https://github.com/jajodiaraghav/CANVD">CANVD</a> | <a href="https://github.com/jajodiaraghav/PRMHAL">PRMHAL</a>
+                    	</div>
+                    	<div class="list-group-item">
+                    		<strong>Mentor Name:</strong> Mohamed Helmy [helmy.sfc@gmail.com]
+                    	</div>
+                    </div>
+
+                    <h2 class="section-heading">Code Links</h2>
+                    <div class="list-group">
+                    	<div class="list-group-item active">
+                    		<strong>Lint to all commits: </strong>
+                    	</div>
+            			<a class="list-group-item" href="https://github.com/jajodiaraghav/CANVD/commits?author=jajodiaraghav">
+            				The DV-IMPACT Project
+            			</a>
+            			<a class="list-group-item" href="https://github.com/jajodiaraghav/PRMHAL/commits?author=jajodiaraghav">
+            				The Peptide Recognition Module Database Project
+            			</a>
+                    </div>
+
+					<h2 class="section-heading">Work Details</h2>
+					<strong>Phase I</strong>
+					<ul>
+						<li>Code Refactoring to improve Performance and Readability</li>
+						<li>Remove Unnecessary files from the project</li>
+						<li>Revamping the UI of the application</li>
+						<li>Remove inline CSS and JavaScript code</li>
+						<li>Fix several bugs present in the project</li>
+					</ul>
+					<strong>Phase II</strong>
+					<ul>
+						<li>Add support for file upload</li>
+						<li>Add support for file deletion</li>
+						<li>Add 'Search-and-Delete' feature for uploaded files</li>
+					</ul>
+					<strong>Phase III</strong>
+					<ul>
+						<li>Database modifications to handle PSI file</li>
+						<li>Add support for PSI file upload</li>
+						<li>Implement a progress-meter for backend file operation</li>
+					</ul>
+					<strong>Phase IV</strong>
+					<ul>
+						<li>Modify /variants and /network section based on schema changes</li>
+						<li>Add download support for PSI file</li>
+						<li>Make /dataset section dynamic + Add 'Search-filter'</li>
+						<li>Make /dataset editable by administrator</li>
+					</ul>
+					<strong>Phase V</strong>
+					<ul>
+						<li>Developing the Peptide Recognition Module Database Application</li>
+					</ul>
+
+					<h2 class="section-heading">Snapshots</h2>
+                    <img class="img-responsive" src="http://via.placeholder.com/800x400">
+                    <span class="caption text-muted">Placeholder</span>
+
+                    <p>That's all Folks! It was really great working with the NRNB throughout this summer and it was a really valuable experience for me. Although GSoC period may end, my involvement to FOSS won’t! :)</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
