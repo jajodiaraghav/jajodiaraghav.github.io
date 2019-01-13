@@ -5,8 +5,8 @@ html, body {
 
 .navbar {
 	background-color: #305B90;
-    background: -webkit-linear-gradient(315deg, #305B90 0%, #305B90 30%, #529bf5 100%) fixed;
-    background: linear-gradient(135deg, #305B90 0%, #305B90 30%, #529bf5 100%) fixed;
+    background: -webkit-linear-gradient(315deg, #000000 0%, #363b40 30%, #93969a 100%) fixed;
+    background: linear-gradient(135deg, #000000 0%, #363b40 30%, #93969a 100%) fixed;
 	border: none;
 	font-weight: bold;
 	margin-bottom: 0px;
